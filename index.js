@@ -6,7 +6,7 @@ const port = 3000
 const userDB = {}
 
 app.get('/', (request, response) => {
-  res.send('Hello World!')
+  response.send('Hello World!')
 })
 
 
