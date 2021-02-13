@@ -3,7 +3,7 @@ const app = express()
 app.use(express.json());
 const port = 3000
 
-const userDB = []
+const userDB = {}
 
 app.get('/', (request, response) => {
   res.send('Hello World!')
